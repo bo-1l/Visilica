@@ -11,10 +11,6 @@ ul li{list-style: none;}
 img{vertical-align: top;}
 h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
 
-a:visited{
-    color: black;
-}
-
 p{
     text-align: center;
 }
@@ -36,15 +32,18 @@ button{
     margin: 0 auto;
     margin-top: 100px;
     padding: 10px;
+    
 }
 
 .button1{
     background-color: crimson;
     color: black;
+
 }
 
 .button2{
     background-color: rgb(76, 76, 243);
+
 }
 
 .button3{
@@ -66,3 +65,11 @@ button{
     transition: background-color 30s;
 }
 
+button:visited{
+    color: inherit;
+    color: black;
+}
+
+a:visited{
+    color: black;
+}
