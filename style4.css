@@ -24,7 +24,7 @@ p{
     margin-top: 50px;
 }
 
-textarea{
+input{
     padding: 10px;
     border: 5px solid black; 
     font-size: 20px;
@@ -41,7 +41,7 @@ button{
     margin: 0 auto;
     margin-top: 50px;
     padding: 10px;
-    background-color: rgb(102, 170, 34);
+    background-color: rgb(128, 250, 7);
 }
 
 button:hover{

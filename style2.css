@@ -27,7 +27,8 @@ button{
 .back{
     text-align: left;
     font-size: 50px;
-    margin-top: 10px
+    margin-top: 10px;
+    background-color: rgb(128, 250, 7);
 }
 
 .button-container{
@@ -63,4 +64,9 @@ button{
 .play2:hover{
     background-color: rgb(105, 105, 228);
     transition: background-color 2s
+}
+
+.back:hover{
+    transition: background-color 0.3s;
+    background-color: rgb(0, 255, 170);
 }
